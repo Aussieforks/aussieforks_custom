@@ -1,0 +1,8 @@
+#	List of player names to de-priv on login to prevent account hijacking and impersonation
+#	eg "name1 name2 name3"
+aussieforks_custom.depriv_account_list (Automatic De-Priv Account List) string
+
+#	List of privs for de-priv'd players to retain
+#	This list should be as minimal as possible to prevent account hijacking and impersonation
+#	eg "shout interact fly"
+aussieforks_custom.depriv_priv_list (Automatic De-Priv Priv List) string
