@@ -10,7 +10,7 @@ if not account_list or account_list == "" then
 	return
 end
 
-account_list = account_list:split(" ")
+account_list = account_list:split(",")
 if #account_list == 0 then
 	return
 end
@@ -18,7 +18,7 @@ for _, name in pairs(account_list) do
 	depriv_accounts[name] = true
 end
 
-for _, priv in pairs(depriv_priv_list:split(" ")) do
+for _, priv in pairs(depriv_priv_list:split(",")) do
 	base_privs[priv] = true
 end
 
